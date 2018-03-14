@@ -1,0 +1,58 @@
+body, div, p, ul, ol, li, dl, dt, dd, form, table, tr, td, hr, h1, h2, h3, h4, h5, h6, img, input, field {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+.nav {
+  width: 100%;
+  height: 37px;
+  background: #f1f1f1;
+  border-top: 1px solid #ffd5ab; }
+
+.nav .nav-one {
+  width: 1194px;
+  height: 37px;
+  margin: 0 auto; }
+
+.nav-one .adress {
+  float: left;
+  width: 89px;
+  height: 37px;
+  font-size: 12px;
+  color: #5e5e5e;
+  line-height: 37px;
+  padding-left: 6px;
+  cursor: pointer; }
+
+.nav-one .nav-list {
+  height: 37px;
+  float: right;
+  line-height: 37px; }
+
+.nav-list .login {
+  padding-left: 0; }
+
+.login span {
+  color: #e54948; }
+
+.nav-list a {
+  font-size: 12px;
+  color: #5e5e5e;
+  padding-left: 20px;
+  background: url(../img/gray.png) no-repeat 10px 3px;
+  cursor: pointer; }
+
+.nav-list a:nth-child(6) {
+  border: none; }
+
+.nav-list a:nth-child(6) {
+  padding-left: 28px; }
+
+.nav-list .call {
+  color: #c7a774;
+  font-weight: bold; }
+
+.nav-list .yiyao {
+  margin-left: 4px; }
