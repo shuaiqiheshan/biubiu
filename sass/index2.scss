@@ -1,0 +1,388 @@
+body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,hr,h1,h2,h3,h4,h5,h6,img,input,fieldset{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+
+
+}
+ul{
+	list-style:none;
+}
+// 导航部分
+.nav{
+	width:100%;
+	height:37px;
+	background:#f1f1f1;
+	// border-top:1px solid #ffd5ab;
+	border-bottom:1px solid #ccc;
+}
+.nav .nav-one{
+	width:994px;
+	height:37px;
+	margin:0 auto;
+	
+}
+.nav-one{
+	.adress{
+		float:left;
+		width:89px;
+		height:37px;
+		font-size:12px;
+		color:#5e5e5e;
+		line-height:37px;
+		padding-left:6px;
+		cursor: pointer;
+	}
+}
+.nav-one{
+	.nav-list{
+		height:37px;
+		float:right;
+		line-height:37px;
+	}
+}
+.nav-list{
+	.login{
+		padding-left:0;
+	}
+}
+.login{
+	span{
+		color:#e54948;
+	}
+}
+.nav-list{
+	a{
+		font-size:12px;
+		color:#5e5e5e;
+		padding-left:20px;
+		background:url(../img/gray.png) no-repeat 10px 3px;
+		cursor: pointer;
+	}
+}
+.nav-list a:nth-child(5):hover{
+	text-decoration:none;
+	
+}
+.nav-list a:nth-child(6){
+	padding-left:28px;
+}
+.nav-list{
+	.call{
+		color:#c7a774;
+		font-weight:bold;
+	}
+}
+
+.nav-list .yiyao{
+	margin-left:4px;
+}
+.nav-list a:hover{
+	color:#2e74a8;
+	text-decoration:underline;
+}
+.adress .yiyao{
+	margin-left:4px;
+}
+.section{
+	width:281px;
+	height:340px;
+	position: absolute;
+	left:35px;
+	top:37px;
+	background:white;
+	z-index:14;
+	border:1px solid #ccc;
+	border-top:none;
+	float:left;
+	display:none;
+}
+.section{
+	a{	height:22px;
+		font-size:12px;
+		display:block;
+		padding-top:2px;
+		padding-left:5px;
+	}
+}
+.adress:hover .section{
+	display:block;
+}
+.adress:hover{
+	background:white;
+	border-bottom:none;
+}
+
+.nav-list{
+	.select{
+		width:93px;
+		height:126px;
+		float:right;
+		position:absolute;
+		top:3px;
+		right:291px;
+		font-size:12px;
+		border:1px solid #ccc;
+		text-align:center;
+		display:none;
+		z-index:12;
+		background:white;
+		color:#ccc;
+	}
+}
+.select li{
+	height:24px;
+}
+.yiyaoweb:hover .select{
+	display:block;
+	border-top:none;
+	background:white;
+}
+.yiyaoweb:hover .select .select-one{
+	color:#5e5e5e;
+}
+.logo{
+	width:100%;
+	height:177px;
+	border-bottom:2px solid #d2b994;
+}
+.logo{
+	.logo-put{
+		width:994px;
+		height:121px;
+	   margin:0 auto;
+	   // background:red;
+
+	}
+}
+// 搜索框
+.logo-put {
+	.inputs{
+		height:121px;
+		
+	}
+}
+.in-img {
+	width:180px;
+	height:61px;
+	float:left;
+	margin-left:0;
+	margin-top:24px;
+}
+.logo-put{
+	.search{
+		width:587px;
+		height:106px;
+		margin-left:250px;
+		// background:blue;
+	}
+}
+.forms{
+	float: left;
+	padding-top: 34px;
+
+}
+.txt{
+ 	float: left;
+	width:305px;
+	height:45px;
+	border:1px solid #c7a774;
+	vertical-align:middle;
+	border-right:none;
+	text-indent:12px;
+	color:#858585;
+	outline: none;	
+}
+.btn{
+	float: left;
+	width:80px;
+	height:47px;
+	border:1px solid #c7a774;
+	vertical-align:middle;
+	background:white url(../img/search-1.png) no-repeat 28px 15px;
+	font-size: 18px;
+	outline: none;
+}
+.bottom{
+	height:30px;
+	text-align:center;
+	line-height:2;
+	float: left;	
+}
+.bottom a{
+	float: left;
+	padding:5px 5px;
+	height:30px;
+	line-height:30px;
+	color:#999999;
+	font-size:12px;
+	text-decoration:none;	
+}
+.bottom a:nth-child(6){
+	color:red;
+}
+.bottom a:hover{
+	color:red;
+	text-decoration:underline;
+}
+.code{
+	width:97px;
+	height:88px;
+	background:red;
+	float:right;
+	margin-right:165px;
+	margin-top:-50px;
+
+
+}
+.code img{
+	width:97px;
+	height:88px;
+	
+}
+// 购物车
+
+.gouwu{
+	width:141px;
+	height:38px;
+	background:white;
+	border:1px solid #ccc;
+	float:right;
+	margin-right:20px;
+	margin-top:-72px;
+}
+.gouwu a{
+	line-height:38px;
+	color:#5e5e5e;
+	font-size:14px;
+	margin-left:52px;
+}
+.gouwu span{
+	float:right;
+	margin-right:20px;
+}
+.type{
+	height:51px;
+	// background:red;
+	margin-top:4px;
+}
+.type{
+	.type-left{
+		width:180px;
+		height:53px;
+		background:#19323a;
+		float:left;
+	}
+}
+.type{
+	.type-left{
+		a{
+			color:white;
+			font-size:14px;
+			line-height:50px;
+			margin-left:16px;
+			font-weight:600;
+		}
+	}
+}
+.type-left a:hover{
+	text-decoration:underline;
+}
+.type-list{
+	height:51px;
+	text-align:center;
+	line-height:51px;
+	float: left;	
+}
+.type-list a:nth-child(1){
+	padding-left:15px;
+}
+.type-list a{
+	padding-left:20px;
+	height:30px;
+	line-height:30px;
+	color:#505050;
+	font-size:14px;
+	text-decoration:none;
+	cursor: pointer;	
+}
+.type-list a:nth-child(1){
+	color:red;
+}
+.type-list a:nth-child(4){
+	color:red;
+}
+.type-list a:nth-child(8){
+	color:red;
+	
+}
+.type-list a:nth-child(9){
+	color:#864efe;
+	background:url(../img/map.png) no-repeat 15px 0;
+}
+.type-list .sot{
+	margin-left:4px;
+}
+.type-list a:hover{
+	color:#0083ce;
+}
+
+// 商品分类购物车
+.shopping-cart{
+	width:994px;
+	height:577px;
+	// background:pink;
+	margin:0 auto;
+
+}
+.cart-nav{
+	width:994px;
+	height:44px;
+	// background:red;
+}
+.cart-nav{
+	a{
+		font-size:12px;
+		padding-left:20px;
+		line-height:44px;
+		background:url(../img/icon-left.png) no-repeat 5px 4px;
+		color:#333333;
+	}
+}
+.cart-nav .c-frist{
+	background:url(../img/icon-02.png) no-repeat 1px 1px;
+}
+
+// 放大镜部分大盒子
+.cart-box{
+	width:994px;
+	height:525px;
+	background:yellow;
+}
+.cart-right{
+	width:191px;
+	height:451px;
+	background:red;
+	float:right;
+	border:1px solid #e6e6e6;
+}
+.blue-cart{
+	width:191px;
+	height:81px;
+	background:#0083ce;
+}
+.cart-right ul{
+	width:191px;
+	height:369px;
+}
+.cart-right ul li{
+	width:190px;
+	height:185px;
+	background:blue;
+}
+.cart-right ul li img{
+	margin-top:20px ;
+	margin-left:50px;
+}
