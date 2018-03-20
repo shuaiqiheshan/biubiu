@@ -1,0 +1,285 @@
+// 公共部分顶部
+body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,hr,h1,h2,h3,h4,h5,h6,img,input,fieldset{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+
+
+}
+ul{
+	list-style:none;
+}
+.buy-goods{
+	width:100%;
+	height:31px;
+	background:#f8f8f8;
+	border:1px solid #b6b4b6;
+}
+.buy-goods .goods-nav{
+	width:985px;
+	height:31px;
+	// background:pink;
+	margin:0 auto;
+
+}
+// 导航左边部分
+.goods-nav .nav-left{
+	width:278px;
+	height:31px;
+	float:left;
+	// background:red;
+
+}
+.nav-left ul{
+	width:278px;
+	height:31px;
+}
+.nav-left ul{
+	li{
+		float:left;
+		line-height:31px;
+		padding-left:4px;
+		height:31px;
+	}
+}
+.nav-left ul{
+	li{
+		a{
+
+			
+			font-size:12px;
+			color:#5e5e5e;
+		}
+	}
+}
+.nav-left ul{
+	.nav-li{
+			
+			background:url(../img/g-five.png)no-repeat 1px 11px;
+	}
+}
+.nav-left ul .nav-li a{
+	margin-left:16px;
+} 
+.nav-left ul .line{
+		color:#e7e7ea;
+
+}
+.nav-left ul li{
+	.nav-mobie{
+		padding-left:15px;
+		background:url(../img/mobie-03.png)no-repeat 1px 1px;
+	}
+}
+.nav-left ul li .sent-gos{
+	padding-left:15px;
+	// background:url(../img/car.png)no-repeat 1px 1px;
+
+}
+.nav-left ul li .car{
+	width:28px;
+	background:blue;
+	height:19px;
+	float:right;
+	margin-top:9px;
+	margin-left:6px;
+	background:url(../img/car.png)no-repeat 0px 0px;
+}
+
+// 导航右边部分
+.goods-nav .nav-right{
+	width:388px;
+	height:31px;
+	float:right;
+	// background:yellow;
+}
+.nav-right{
+	.login{
+		background:none;
+		padding-left:0;
+	}
+}
+.login{
+	span{
+		color:#e54948;
+	}
+}
+.nav-right{
+	a{
+		font-size:12px;
+		color:#5e5e5e;
+		padding-left:20px;
+		background:url(../img/gray.png) no-repeat 10px 3px;
+		cursor: pointer;
+		line-height:31px;
+	}
+}
+.nav-right a:nth-child(5):hover{
+	text-decoration:none;
+	
+}
+.nav-right a:nth-child(6){
+	padding-left:28px;
+}
+.nav-right{
+	.call{
+		color:#c7a774;
+		font-weight:bold;
+	}
+}
+
+.nav-right .yiyao{
+	margin-left:4px;
+}
+.nav-right a:hover{
+	color:#2e74a8;
+	text-decoration:underline;
+}
+.nav-right{
+	.select{
+		width:93px;
+		height:126px;
+		float:right;
+		position:absolute;
+		top:3px;
+		right:291px;
+		font-size:12px;
+		border:1px solid #ccc;
+		text-align:center;
+		display:none;
+		z-index:12;
+		background:white;
+		color:#ccc;
+	}
+}
+.select li{
+	height:24px;
+}
+.yiyaoweb:hover .select{
+	display:block;
+	border-top:none;
+	background:white;
+}
+.yiyaoweb:hover .select .select-one{
+	color:#5e5e5e;
+}
+// logo图部分
+.logo-nav{
+	width:985px;
+	height:100px;
+	// background:green;
+	margin:20px auto;
+}
+.logo-nav .logo-img{
+	display:inline-block;
+	width:180px;
+	height:61px;
+	background:url(../img/logo_01.png)no-repeat -29px 1px;
+
+}
+.logo-nav .logo-left{
+	width:570px;
+	height:32px;
+	background:#f3f3f3;
+	float:right;
+	margin-top:10px;
+}
+.logo-left ul{
+	width:570px;
+	height:32px;
+}
+.logo-left ul{
+	li{
+		width:190px;
+		height:32px;
+		float:left;
+		position: relative;
+
+	}
+}
+.logo-left ul li{
+	a{
+		font-size:12px;
+		color:white;
+		display:block;
+		width:175px;
+		height:32px;
+		text-align:center;
+		line-height:32px;
+		background:#0083ce;
+		
+	}
+}
+.logo-left ul li{
+	span{
+		display: block;
+		position: absolute;
+		left:175px;
+		top:0px;
+		width:0;
+		height:0;
+		border:16px solid transparent;
+		border-left-color:#0083ce;
+	}
+}
+.logo-left .three-left{
+	color:#a5a5a5;
+	background:#f3f3f3;
+	background:url(../img/left-03.png)no-repeat 134px 1px;
+}
+.logo-left .three-left.active{
+	background:none;
+}
+.list-goods{
+	width:985px;
+	height:26px;
+	margin:0 auto;
+	background:red;
+}
+.list-goods ul{
+	width:985px;
+	height:26px;
+	
+}
+.list-goods ul{
+	li{
+		float:left;
+		line-height:26px;
+	}
+}
+.list-goods ul a{
+	line-height:26px;
+	float:right;
+}
+.list-goods ul .list-price{
+	float:left;
+}
+.list-goods ul .need{
+	margin-left:12px;
+	color:#5e5e5e;
+}
+.list-goods ul .my-goods{
+	color:#0083ce;
+	border-bottom:1px solid #5e5e5e;
+}
+.list-goods ul .list-price{
+	font-size:12px;
+	color:#a5a5a5;
+	margin-left:568px;
+}
+.list-goods ul {
+	a{
+		display:block;
+		width:38px;
+		height:20px;
+		background:blue;
+		font-size:14px;
+		color:white;
+		line-height:20px;
+		margin-top:4px;
+	}
+}
+
+

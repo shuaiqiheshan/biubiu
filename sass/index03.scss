@@ -1,0 +1,251 @@
+body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,hr,h1,h2,h3,h4,h5,h6,img,input,fieldset{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+
+
+}
+ul{
+	list-style:none;
+}
+//登录页面
+.register{
+	width:100%;
+	height:100%;
+	margin:0 auto;
+}
+.register-middle{
+	width:994px;
+	height:100%;
+	margin:0 auto;
+	// background:pink;
+
+}
+// 登录logo图
+.register-logo{
+	height:98px;
+	border-bottom:2px solid #0083ce; 
+	// background:yellow;
+}
+.register-main{
+	width:994px;
+	height:449px;
+	border:1px solid #e6e6e6;
+	border-top:none; 
+}
+.register-main a{
+	display:block;
+	height:363px;
+	float:left;
+
+}
+.register-right{
+	width:434px;
+	height:446px;
+	// background:red;
+	float:left;
+}
+.res-ul{
+	width:434px;
+	height:47px;
+	text-align:center;
+}
+.res-ul a{
+	display:block;
+	width:217px;
+	height:47px;
+	background:white;
+	line-height:47px;
+	color:#000;
+	font-size:14px;
+
+}
+.res-ul .pt{
+	background: white url(../img/res-03.png) no-repeat 1px 10px;
+}
+// 登录内容
+.res-content{
+	height:388px;
+	border-top:1px solid #e2e2e2;
+	margin-top:3px;
+	
+}
+.content-one{
+	height:40px;
+	background:white;
+	line-height:40px;
+}
+.content-one span{
+	margin-left:30px;
+	color:#5e5e5e;
+
+}
+.content-one .free-cont{
+	margin-right:32px;
+	float:right;
+	font-size:12px;
+	color:#000;
+
+}
+.content-one .free-cont{
+	a{
+		color:#0083ce;
+	}
+}
+.forms{
+	height:350px;
+	// background:yellow;
+	float:left;
+}
+.forms input{
+	width:334px;
+	height:40px;
+	
+	margin-left:29px;
+	color:#757575;
+	text-indent:37px;
+	background: white url(../img/icon-perspon.png)no-repeat 6px 11px;
+	outline:none;
+	border:1px solid #e6e6e6;
+}
+.forms input {
+	margin-bottom:30px;
+}
+.forms .password{
+	margin-bottom:0;
+}
+.forget-a a{
+	width:60px;
+	height:14px;
+	display:inline-block;
+	color:#000;
+	font-size:12px;
+	margin-right:64px;
+	float:right;
+}
+.auth-code{
+	width:340px;
+	height:55px;
+	margin-top:22px;
+	
+}
+.auth-code .auth-yz{
+	width:174px;
+	height:40px;
+	background:none;
+	background:white;
+	text-indent:10px;
+}
+.checkbox{
+	height:20px;
+
+}
+.checkbox .ck-box{
+	margin-bottom:0;
+	width:13px;
+	height:13px;
+}
+.checkbox span{
+	color:#5e5e5e;
+	font-size:12px;
+}
+.btn-for{
+	width:368px;
+	height:65px;
+	// background:red;
+	
+}
+.btn-for .btn{
+	cursor:pointer;
+	width:326px;
+	height:39px;
+	background:#0099f1;
+	margin-left:27px;
+	margin-top:10px;
+	color:white;
+	font-size:20px;
+	border:none;
+}
+.company-acc{
+	width:340px;
+	height:88px;
+	// background:blue;
+}
+.company-acc p{
+	height:24px;
+	margin-left:28px;
+	font-size:12px;
+}
+
+.company-acc .company-one{
+	margin-left:22px;
+}
+.company-acc a{
+	display:block;
+	width:38px;
+	height:38px;
+	margin-left:10px;
+	border-radius:50%;
+	// background:rgba(200,200,200,.1) url(../img/zf-01.png)no-repeat 0 0;
+}
+.company-acc img{
+	
+	margin-left:0px;
+}
+// .company-acc a:hover{
+// 	background:#0083ce;
+// }
+.more-company{
+	width:103px;
+	height:25px;
+	// background:red;
+	cursor: pointer;
+    display: inline-block;
+    float: right;
+    margin-right: -11px;
+    margin-top: 12px;
+    position: relative;
+    z-index: 100;
+}
+.more-company span{
+	font-size:12px;
+	color:#5e5e5e;
+}
+.more-company .more-btn{
+	border:2px solid #c5c5c5;
+	background:#c5c5c5;
+	height: 15px;
+    margin-right:13px;
+    margin-top:5px;
+    float: right;
+    border: none;
+    background:url(../img/btn-btm.png)no-repeat 1px 1px;
+}
+.resgint-foot{
+	width:980px;
+	height:65px;
+	margin:40px auto;
+	// background:red;
+	text-align:center;
+}
+.resgint-foot a{
+	color:#666666;
+	font-size:12px;
+	padding-left:8px;
+	height:14px;
+	background:url(../img/ft-01.png)no-repeat 0px 3px;
+}
+.resgint-foot a:hover{
+	color:#0099f1;
+	text-decoration:underline;
+}
+.resgint-foot .resgint-foot01{
+	background:none;
+}
+.resgint-foot p{
+	color:#666666;
+	margin-top:6px;
+	font-size:12px;
+}

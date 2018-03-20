@@ -1,0 +1,185 @@
+body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,hr,h1,h2,h3,h4,h5,h6,img,input,fieldset{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+
+
+}
+ul{
+	list-style:none;
+}
+
+//注册页面
+.sign{
+	width:100%;
+	height:100%;
+
+}
+.sign-main{
+	width:994px;
+	height:100%;
+	margin:0 auto;
+	// background:red;
+}
+// 注册LOGO图
+.register-logo{
+	height:98px;
+	border-bottom:2px solid #0083ce; 
+	// background:yellow;
+}
+.sign-main h2{
+	height:26px;
+	margin:10px auto;
+	font-weight:100;
+	font-size:20px;
+	color:#666;
+	margin-left:50px;
+}
+.sign-main h2 span{
+	float:right;
+	font-size:12px;
+	color:red;
+	line-height:24px;
+}
+.sign-form{
+	height:440px;
+	// background:yellow;
+	border:1px solid #e6e6e6;
+	box-shadow:5px 5px  5px #f2f2f2, -5px 0px  5px #f2f2f2, 0px 5px  5px #f2f2f2;
+	border-top:none;
+}
+.singn-img a{
+	display:block;
+	width:500px;
+	height:372px;
+	background:url(../img/zhuce.png)no-repeat 1px 1px;
+	margin-top:40px;
+	float:right;
+}
+.sign-forms{
+	width:491px;
+	height:365px;
+	float:left;
+	
+}
+.sign-forms .forms-input{
+	width:340px;
+	height:40px;
+	float:left;
+	margin-left:70px;
+	background:#f3f3f3;
+
+}
+.forms-input input{
+	width:340px;
+	height:40px;
+	color:#757575;
+	font-size:14px;
+	text-indent:40px;
+	border:1px solid #ffaa00;
+	background:white url(../img/mobie-person.png)no-repeat 13px 9px;
+
+
+}
+.forms-password{
+	width:340px;
+	height:40px;
+	margin-left:70px;
+	// background:#f3f3f3;
+	margin-top:70px;
+}
+.forms-password input{
+
+	width:340px;
+	height:40px;
+	color:#757575;
+	font-size:14px;
+	text-indent:40px;
+	border:1px solid #e72418;
+	background:url(../img/form-key.png)no-repeat 13px 9px;
+
+
+}
+.forms-password02{
+	width:340px;
+	height:40px;
+	margin-left:70px;
+	background:#f3f3f3;
+	margin-top:30px;
+}
+.forms-password02 input{
+	width:340px;
+	height:40px;
+	color:#757575;
+	font-size:14px;
+	text-indent:40px;
+	border:none;
+	border:1px solid #e6e6e6;
+	background:url(../img/form-key.png)no-repeat 13px 9px;
+}
+.label-box{
+	display:inline-block;
+	width:342px;
+	height:24px;
+	// background:pink;
+	font-size:12px;
+	margin-left:70px;
+	margin-top:30px;
+	line-height:24px;
+}
+.label-box input{
+	width:13px;
+	height:13px;
+}
+.label-btn{
+	cursor:pointer;
+	width:340px;
+	height:36px;
+	background:#0099f1;
+	margin-left:70px;
+	margin-top:10px;
+	color:white;
+	border:none;
+}
+.company-sign{
+	width:342px;
+	height:70px;
+	margin-top:20px;
+}
+.company-sign p{
+	width:342px;
+	height:24px;
+	font-size:12px;
+	color:#5e5e5e;
+	margin-left:70px;
+	
+}
+.resgint-foot{
+	width:980px;
+	height:65px;
+	margin:40px auto;
+	// background:red;
+	text-align:center;
+}
+.resgint-foot a{
+	color:#666666;
+	font-size:12px;
+	padding-left:8px;
+	height:14px;
+	background:url(../img/ft-01.png)no-repeat 0px 3px;
+}
+.resgint-foot a:hover{
+	color:#0099f1;
+	text-decoration:underline;
+}
+.resgint-foot .resgint-foot01{
+	background:none;
+}
+.resgint-foot p{
+	color:#666666;
+	margin-top:6px;
+	font-size:12px;
+}
+
