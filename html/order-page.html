@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>	订单页</title>
+	<link rel="stylesheet" type="text/css" href="../css/order.css">
+</head>
+<body>
+	<div class="buy-goods">
+		<div class="goods-nav">
+			<div class="nav-left">
+			<ul>
+				<li class="nav-li"><a>收藏本站</a></li>
+				<li class="line">丨</li>
+				<li><a class="nav-mobie">手机版</a></li>
+				<li>
+					<a class="sent-gos">送货至<span>上海</span>
+					</a>
+					<div class="car">
+						<img src="../img.car.png" alt="">
+					</div>
+				</li>
+
+			</ul>
+			</div>
+			<div class="nav-right">
+				<a class="login"><span>欢迎你</span> 退出</a>
+				<a>我的订单</a>
+				<a class="yiyaoweb" >我的壹药网<img src="../img/n-jiao.png" class="yiyao">
+					<ul class="select">
+						<li class="select-one">我的壹药网</li>
+						<li>我的优惠券</li>
+						<li>我的优惠券</li>
+						<li>我的优惠券</li>
+						<li>我的优惠券</li>
+					</ul>
+				</a>
+				<a>帮助中心</a>
+				<a>在线客服</a>
+			</div>
+		</div>
+	</div>
+	<!-- logo部分 -->
+	<div class="logo-nav">
+		<a href="javascript:;" class="logo-img"></a>
+		<div class="logo-left">
+			<ul>
+				<li><a href="javascript:;">1.我的购物车</a><span></span></li>
+				<li class="three-j"><a href="javascript:;" class="three-left">2.我的购物车</a></li>
+				<li><a href="javascript:;" class="three-left active">3.我的购物车</a></li>
+			</ul> 
+		</div> 
+	</div>
+	<div class="list-goods">
+		<ul>
+			<li  class="my-goods">填写核对订单信息</li>
+		</ul>
+	</div>
+	<!-- 收货地址 -->
+	<div class="goods-adress">
+		<p class="sf">收货地址</p>
+		<div class="adress-content">
+			<ul>
+				<li><span>收货地址:</span>
+				<p>
+					<select id="selectProvince">
+						<option value="">陕西</option> 
+					</select>
+					<select id="selectCity">
+						<option value="">请选择市/区</option>
+					</select>
+					<select name="" id="">
+						<option value="">请选择市/区</option>
+					</select>
+				</p></li>
+				<li><span>收货地址:</span><p><input type="text" class="care-adress"></p></li>
+				<li><span>收货地址:</span><p><input type="text" class="adress-person"></p></li>
+				<li><span>收货地址:</span><p><input type="text" class="adress-call">&nbsp;&nbsp;&nbsp;&nbsp;或 固定电话:
+					<input type="text" value="区号" class="call-one">－
+					<input type="text" value="电话号码" class="telephone">－
+					<input type="text" value="分机号" class="call-one">
+				</p></li>
+			</ul>
+			<div class="save-adress">
+				<a href="javascript:;">保存地址</a>
+			</div>
+		</div>
+		<p class="line-btm"></p>
+		<!-- 支付信息 -->
+		<div class="pay-mess">
+			<p class="zf">支付信息</p>
+			<div class="pay-main">
+				<input type="radio" checked="checked">
+				<p class="line-pay"><label for="">
+					<b>在线支付</b>
+					支持支付宝、微信等多种支付方式。支持多家银行借记卡、信用卡。
+				</label></p>
+				<ul>
+					<li><input type="radio" checked="checked" class="pay-two"></li>
+					<!-- <a href="javascript:;" class="qt-pay">选择其他在线支付</a> -->
+				</ul>
+				<p class="gold-pay">
+					<input type="radio" checked="checked">
+					<label for="">
+						<b>货到付款</b>
+						支持支付宝、微信等多种支付方式
+					</label>
+				</p>
+				<p class="gold-pay">
+					<input type="radio" checked="checked">
+					<label for="">
+						<b>货到付款</b>
+						支持支付宝、微信等多种支付方式
+					</label>
+				</p>
+				<p class="gold-pay">
+					<input type="radio" checked="checked">
+					<label for="">
+						<b>货到付款</b>
+						支持支付宝、微信等多种支付方式
+					</label>
+				</p>
+
+			</div>
+			<!-- 优惠券 -->
+			<div class="discount">
+				<div class="dis-one">
+					您当前订单共有1张优惠券可用
+				</div>
+				<div class="dis-two">
+					<input type="radio" checked="checked">
+					<label for="">
+						满99减100
+					</label>
+				</div>
+				<div class="new-dis">
+					使用新的优惠券
+				</div>
+			</div>
+			<div class="bill-mess">
+				<p class="zf">发票信息</p>
+				<span>使用平安壹钱包、商保通、兜礼积分、万里通积分、杉德卡等支付方式不提供发票。</span><br>
+				<span class="bill-two">为了保障您的商品售后权益，涉及售后保修的商品将按商品明细开具发票并会随单发送。</span>
+				<p class="bill-nd">
+					<input type="radio" checked="checked">
+					<label for="">
+						<b>货到付款</b>
+					</label>
+				</p>
+				<p class="bill-nd">
+					<input type="radio" checked="checked">
+					<label for="">
+						<b>普通发票</b>
+					</label>
+				</p>
+				<div class="package">
+					<h3>商品信息</h3>
+					<div class="package-main">
+						<ul>
+							<li class="title">若区贸易</li>
+							<li class="style">配送方式</li>
+							<li class="package-account">数量</li>
+							<li class="bill-free">金额</li>
+						</ul>
+						<h4 class="package-red">
+							<span class="bg-one">包裹1</span>
+							完成订单后我们将尽快为您发货
+						</h4>
+						<ul class="package-pro">
+							<li class="pr-im"><img src="../img/sk-sm.jpg" alt=""><span class="pk-pr">SK-IISK-II护肤精华露 神仙水230ml</span></li>
+							<li class="package-account">1</li>
+							<li class="bill-free">￥139.00</li></li>
+						</ul>
+						<div class="package-box">
+							<span class="pk-type">1种商品，共计2件，总商品金额：</span>
+							<span>¥2740.00</span>
+						</div>
+						<div class="should-fre">
+							<div class="should-box">
+								<a class="yf">应付金额</a>
+								<a>￥139.00</a>
+								<p>送货至</p>	
+							</div>
+							
+						</div>
+						<div class="submit">
+							<a href="javascript:;" class="sb-pk">提交订单</a>
+							<p>请确认收货地址</p>
+						</div>
+						<!-- 底部 -->
+						<div class="resgint-foot">
+								<p>
+									<a href="javascript:;" class="resgint-foot01">关于1药网</a>
+									<a href="javascript:;">互联网药品交易资格证</a>
+									<a href="javascript:;">互联网药品信息服务资格证</a>
+								</p>
+								<p>
+									<a href="javascript:;" class="resgint-foot01">连锁营业执照</a>
+									<a href="javascript:;">保健食品卫生许可证</a>
+									<a href="javascript:;">医疗器械许可证</a>
+									<a href="javascript:;">食品流通许可证</a>
+									<a href="javascript:;">GSP证书</a>
+									<a href="javascript:;">粤ICP备12015869号</a>	
+								</p>
+								<p>Copyright© 1药网 2010-2015， All Rights Reserved</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>							
+	</div>
+</body>
+
+</html>
+<script type="text/javascript" src="../js/ajax1708.js"></script>
+<script type="text/javascript">
+function $(id){
+	return document.getElementById(id);
+}
+	let obj = null;
+	//获取省市数据
+	function getCitys(){
+		ajax1708("get","../js/myCity.json","",true,function(str){
+				//编码转换为字符串
+				obj = JSON.parse(str);
+				showProvince();
+				showCities();
+			});
+	} 
+
+	//显示省
+	function showProvince(){
+		//设置空的字符串
+		let htmlStr = "";
+		for(let key in obj){
+			htmlStr+="<option value="+key+">"+key+"</option>";
+		}
+		$("selectProvince").innerHTML = htmlStr;
+	}
+
+	//显示市
+	function showCities(){
+		//1、根据所选择的省，找对应的市的数组
+		let citys = obj[$("selectProvince").value];
+		//2、显示数组到city下拉框里
+		let htmlStr = "";
+		for(let i in citys){
+			htmlStr+="<option value="+citys[i].编码+">"+citys[i].市名+"</option>";
+		}
+		$("selectCity").innerHTML = htmlStr;
+	}
+
+
+
+window.onload=function(){
+	getCitys();
+	$("selectProvince").onchange = showCities;
+}
+</script>
