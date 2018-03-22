@@ -27,13 +27,16 @@
 						</div>
 						<!-- input框内容 -->
 						<form action="" class="forms">
-							<input type="text" value="邮箱/手机号/用户号" class="text">
-							<input type="text" value="登录密码" class="password">
+							<input type="text" placeholder="邮箱/手机号/用户号" class="text" id="userId"><p id="userMsg"></p>
+							<input type="password" placeholder="登录密码" class="password" id="userPass">
+							<p id="cuoTit_userPass"></p>
 						<div class="forget-a">
 							<a href="javascript:;">忘记密码?</a>
 						</div>
 						<div class="auth-code">
-							<input type="text" value="验证码" class="auth-yz">
+							<input type="text" placeholder="验证码"  class="auth-yz">
+							<span id="checkMa_box"></span>
+							<span href="javascript:;" id="scrit">换一换</span>
 						</div>
 						<label for="" class="checkbox">
 							<input type="checkbox" value="1" class="ck-box">
@@ -76,6 +79,81 @@
 		<p>Copyright© 1药网 2010-2015， All Rights Reserved</p>
 		
 	</div>
+
+	<script type="text/javascript">
+		// function $(id){
+		// 	return document.getElementById(id);
+		// }
+		window.onload=function(){
+	//账户名只能使用数字字母下划线，且数字不能开头，长度在6-15之间
+	document.getElementById("userId").onblur = function(){		
+	    var regUser = /^[a-zA-Z_]\w{5,14}$/;  //
+		var userId = this.value;
+		if(!regUser.test(userId)){
+			document.getElementById("userMsg").style.color = "red";
+			document.getElementById("userMsg").style.fontSize = "12px";
+			document.getElementById("userMsg").style.marginLeft = "25px";
+			document.getElementById("userMsg").innerHTML = "请输入手机号";
+		}else{
+			document.getElementById("userMsg").style.color = "green";
+			document.getElementById("userMsg").innerHTML = "√";
+		}
+	}
+}
+	</script>
+
+	<!-- 密码验证 -->
+	<script type="text/javascript">
+		document.getElementById("userPass").onblur =function checkUserPass(){
+		//1、属性
+		let regUser = /^[0-9a-zA-Z_]\w{5,14}$/; 
+	 	let userPass = document.getElementById("userPass").value;
+	 	//2、方法
+	 	if(userPass!=""){
+			if(regUser.test(userPass)){
+				document.getElementById("cuoTit_userPass").style.display = "none";
+				//checkFlag=true;
+				//document.getElementById("msgbox").style.display = "block";
+				// ajaxCheckName();
+				return true;
+			}else{
+				document.getElementById("cuoTit_userPass").style.display = "block";
+				document.getElementById("cuoTit_userPass").innerHTML = "密码格式不对";
+				//checkFlag=false;
+				return false;
+			}
+		}else{
+			document.getElementById("cuoTit_userPass").style.display = "block";
+			document.getElementById("cuoTit_userPass").innerHTML = "密码不能为空";
+			return false;
+		};	
+	};
+	</script>
+
+	<!-- 验证码 -->
+	<script src="../js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">
+
+//随机验证码
+function sjCheckMa(){
+	let res="";
+	while(res.length<4){
+		let t=parseInt(Math.random()*123);
+		if((t>=48&&t<=57)||(t>=97&&t<=122)||(t>=65&&t<=90)){
+			res=res+String.fromCharCode(t);
+		}
+	}
+	document.getElementById("checkMa_box").innerHTML=res;
+};
+sjCheckMa();
+	$("#scrit").on("click",function(){
+		sjCheckMa();
+	});
+
+	</script>
+
+	
+
 	
 </body>
 </html>

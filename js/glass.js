@@ -66,8 +66,8 @@ oMiddleBox.onmouseout = function () {
 oMiddleBox.onmousemove = function (ev) {
 	var e = ev || window.event;
 	var iScrollT = document.body.scrollTop || document.documentElement.scrollTop;
-	var iL = e.clientX - oShadow.offsetWidth / 2 - oMiddleBox.offsetLeft - oBox.offsetLeft;
-	var iT = e.clientY - oShadow.offsetHeight / 2 - oMiddleBox.offsetTop - oBox.offsetTop;
+	var iL = e.pageX - oShadow.offsetWidth / 2 - oMiddleBox.offsetLeft - oBox.offsetLeft;
+	var iT = e.pageY - oShadow.offsetHeight / 2 - oMiddleBox.offsetTop - oBox.offsetTop;
 
 
 	// 限定左侧

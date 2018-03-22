@@ -50,15 +50,21 @@ gulp.task("copy-image",function(){
 	.pipe(gulp.dest("E:\\phpStudy\\WWW\\project2\\img"));
 });
 
+//拷贝json
+gulp.task("copy-json",function(){
+	gulp.src("json/*.json")
+	.pipe(gulp.dest("E:\\phpStudy\\WWW\\project2\\json"));//gulp.dest()里可以写绝对路径
+});//路径里要是有的话就放在里面，没有的话会创建
 
 //监听所有
 gulp.task("watch",function(){
 	gulp.watch("html/*.html",["copy-html"]);//index.html是修改的html copy-index是起的名字
 	gulp.watch("sass/*.scss",["sass"]);
 	gulp.watch("css/*.css",["copy-css"]);
-	gulp.watch("js/*js",["copy-js"]);
+	gulp.watch("js/*.js",["copy-js"]);
 	gulp.watch("img/*.{jpg,png,gif}",["copy-image"]);
 	gulp.watch("php/*.php",["copy-php"]);
+	gulp.watch("json/*.json",["copy-json"]);
 });
 
 

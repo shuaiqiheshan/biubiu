@@ -49,8 +49,9 @@ ul{
 	}
 }
 .login{
-	span{
+	span .rse{
 		color:#e54948;
+		font-size:12px;
 	}
 }
 .nav-list{
@@ -346,33 +347,98 @@ ul{
 }
 .main-center{
 	.main-left{
-		position: realitive;
 		width:180px;
 		height:400px;
 		background:#314349;
 		float:left;
-		list-style:none;
+  position: relative; 
 		
 	}
 }
-.main-left a span{
-	color:white;
-	font-size:12px;
+// .main-left a span{
+// 	color:white;
+// 	font-size:12px;
 
-}
-.main-left li:nth-child(1){
-	margin-top:15px;
-}
-.main-left li{
-	margin-left:17px;
-	line-height:28px;
-	margin-top:7px;
-}
-.main-left li img{
+// }
+// .main-left li:nth-child(1){
+// 	margin-top:15px;
+// }
+// .main-left li{
+// 	margin-left:17px;
+// 	line-height:28px;
+// 	margin-top:7px;
+// }
+// .main-left li img{
 	
-	margin-right:13px;
-}
-
+// 	margin-right:13px;
+// }
+.left {
+  width: 180px;
+  float:left;
+  background: #314349;}
+  .left .left_o .left_o_l {
+    width: 180px;
+    height: 40px;
+    background: #314349; }
+    .left .left_o .left_o_l span {
+      display: block;
+      float: left;
+      width: 24px;
+      height: 24px;
+      margin: 6px 6px 0 20px;
+      background: url(../img/pz-01.png) no-repeat 1px 1px;
+      // background-position: -20px 0px; 
+  }
+    .left .left_o .left_o_l a {
+      float: left;
+      color: #f4f5f5;
+      font-size: 14px;
+      margin-top: 10px; }
+      .left .left_o .left_o_l a:hover {
+        text-decoration: underline; }
+  .left .left_o .add_a {
+    background: #314349; }
+  .left .left_o .left_o_r {
+    width: 1008px;
+    height: 399px;
+    border: 1px solid #e8e8e7;
+    position: absolute;
+    left: 180px;
+    top: 0;
+    background: #fff;
+    z-index: 10000; }
+    .left .left_o .left_o_r ul {
+      // position: absolute;
+      // left: 0;
+     margin-top:10px;
+      float:left;
+      height: 160px; }
+      .left .left_o .left_o_r ul h4 {
+        font-size: 14px;
+        font-weight: 100;
+        color: #e47911;
+        margin-bottom: 13px;
+        padding: 16px 0 0 24px; }
+      .left .left_o .left_o_r ul li {
+        padding-left: 78px;
+        line-height: 33px; }
+        .left .left_o .left_o_r ul li a {
+          font-size: 12px;
+          color: #111; }
+          .left .left_o .left_o_r ul li a span {
+            color: #e47911;
+            margin-right: 16px; }
+    .left .left_o .left_o_r .pic {
+      position: absolute;
+      left: 751px;
+      top: 0;
+      width: 253px;
+      height: 410px;
+      padding-top:4px; }
+      .left .left_o .left_o_r .pic img {
+      	float:right;
+      	// margin-right:-451px;
+        margin-bottom:4px; }
 // 轮播图
 .carousel {
 	position: relative;

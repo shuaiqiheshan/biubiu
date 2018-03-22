@@ -461,6 +461,7 @@ ul{
 }
 .cart-price{
 	height:49px;
+	line-height:40px;
 	// background:green;
 
 }
@@ -477,7 +478,7 @@ ul{
 	color:red;
 }
 .cart-price .evea{
-	line-height:16px;
+	line-height:30px;
 	float:right;
 	margin-right:164px;
 }
@@ -868,10 +869,11 @@ ul{
 // 右边部分
 .directory-right{
 	width:790px;
-	height:1417px;
 	// background:red;
 	border-top:2px solid #0083ce;
 	float:right;
+	overflow:hidden;
+	// clear:both;
 }
 .fixTop{
 	position: fixed;
@@ -901,6 +903,275 @@ ul{
 .directory-top01 .five-goods{
 	border-right:1px solid  #e6e6e6;
 }
+// 选项卡主要内容
+.trade-check{
+	width:6666px;
+	// height:1417px;
+	background:pink;
+}
+.trade-check .trade-name{
+	width:790px;
+	height:100%;
+// background:pink;
+	float:left;
+	margin-top:10px;
+	// display:none;
+
+}
+.trade-check .trade-name{
+	.trade-ul{
+		width:790px;
+		height:166px;
+		background:#f7f7f7;
+		border:1px solid #eeeeee;
+	}
+}
+.trade-check .trade-name{
+	.trade-ul{
+		li{
+			width:728px;
+			height:26px;
+			// background:red;
+			margin-left:34px;
+			margin-top:6px;
+		}
+	}
+}
+.trade-check .trade-name{
+	.trade-ul{
+		li{
+			a{
+				color:#818181;
+				font-size:12px;
+			}
+		}
+	}
+}
+.directory-top01 .active{
+	display:block;
+	background: #fff;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom:none;
+
+}
+.change{
+	display:none;
+}
+.frist{
+	display:block;
+}
+
+.trade-check .trade-name{
+	.trade-ul{
+		li{
+			span{
+				color:#818181;
+				font-size:12px;
+				margin-left:15px;
+			}
+		}
+	}
+}
+
+// 商品评价
+.trade-check .trade-pro{
+	width:790px;
+	height:100%;
+	// background:pink;
+	float:left;
+	margin-top:10px;
+	// display:none;
+}
+.trade-check .trade-pro{
+	.product-trade{
+		height:127px;
+		background:#fafafa;
+
+}
+	}
+.trade-check .trade-pro{
+	.product-trade{
+		.product-left{
+			width:232px;
+			height:82px;
+			// background:blue;
+			margin-left:10px;
+			float:left;
+			text-align:center;
+			margin-top:20px;
+			
+		}
+
+}
+	}
+	.trade-check .trade-pro{
+	.product-trade{
+		.product-left{
+			.hunder{
+				font-size:30px;
+				color:#f68a00;
+				line-height:40px;
+			}
+			.bf{
+				color:#f68a00;
+				line-height:40px;
+				font-size:18px;
+			}
+			p{
+				font-size:12px;
+				color:#5e5e5e;
+			}
+			
+		}
+
+}
+	}
+	.product-right{
+			width:540px;
+			height:127px;
+			// background:blue;
+			float:right;	
+	}
+	.product-right{
+		ul{
+			width:380px;
+			height:88px;
+			// background:red;
+			margin-top:20px;
+			margin-left:70px;
+		}
+	}
+	.product-right{
+		ul{
+			li{
+				width:260px;
+				height:28px;
+			}
+		}
+	}
+	.product-right{
+		ul{
+			li{
+				p{
+					display:inline-block;
+					width:132px;
+					height:10px;
+					background:#dbdbdb;
+					margin-left:14px;
+				}
+				span{
+					font-size:12px;
+					color:#5e5e5e;
+					margin-left:14px;
+				}
+			}
+		}
+	}
+	.product-right{
+		ul{
+			li{
+				.nice{
+					background:#f68a00;
+				}
+			}
+		}
+	}
+	.trade-pj{
+		width:790px;
+		height:42px;
+		// background:red;
+		border-bottom:1px solid #e6e6e6;
+	}
+	.trade-pj{
+		ul{
+			width:790px;
+			height:42px;
+		}
+	}
+	.trade-pj{
+		ul{
+			li{
+				width:110px;
+				height:42px;
+				float:left;
+				text-align:center;
+				line-height:42px;
+			}
+		}
+	}
+	.trade-pj{
+		ul{
+			li{
+				a{
+					font-size:14px;
+					color:#5e5e5e;
+				}
+			}
+		}
+	}
+	
+	.trade-pj{
+		ul{
+			li{
+				.pj-all{
+					
+					color:red;
+				}
+			}
+		}
+	}
+	.trade-cont{
+		width:787px;
+		height:120px;
+		// background:red;
+		border-bottom:1px solid #e6e6e6;
+
+
+	}
+	.trade-cont{
+		.trade-contp{
+			
+			width:637px;
+			height:120px;
+			margin-left:3px;
+			float:left;
+			text-indent:25px;
+		}
+		span{
+			display:inline-block;
+			width:140px;
+			height:120px;
+			margin-top:20px;
+			text-indent:45px;
+			background:url(../img/glass-06.png)no-repeat 1px 1px;
+
+
+
+		}
+	}
+	.trade-cont{
+		.trade-contp{
+			p{
+				margin-top:20px;
+				color:#5e5e5e;
+				font-size:12px;
+
+				}
+			}
+				}
+
+
+.ari img{
+	display:block;
+	margin: 0 auto;
+
+}
+
+
+// 底部部分
+
+// 侧边栏
 .slide{
 	width:52px;
 	height:204px;
